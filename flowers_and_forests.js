@@ -16,3 +16,12 @@ elements.nutmeg_ground = {
 	category: "land",
 	state: "solid",
 };
+elements.cactus = {
+	color: "#35ff08",
+	behavior: behaviors.POWDER,
+	category: "land",
+	state: "solid",
+	reactions: {
+        "human": { elem1: "blood", elem2: "blood" },
+    },
+};
