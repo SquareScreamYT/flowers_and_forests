@@ -23,5 +23,7 @@ elements.cactus = {
 	state: "solid",
 	reactions: {
         "human": { elem1: "blood", elem2: "blood" },
+	"fly": { elem1: "blood", elem2: "blood" },
+	"bee": { elem1: "honey", elem2: "honey" },
     },
 };
