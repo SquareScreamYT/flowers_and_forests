@@ -33,8 +33,8 @@ elements.blue_cactus = {
 	category: "land",
 	state: "solid",
 	reactions: {
-        "human": { elem1: "blood", elem2: "blood" },
-	"fly": { elem1: "blood", elem2: "blood" },
-	"bee": { elem1: "honey", elem2: "honey" },
+        "human": { elem1: null, elem2: "blood" },
+	"fly": { elem1: null, elem2: "blood" },
+	"bee": { elem1: null, elem2: "honey" },
     },
 };
