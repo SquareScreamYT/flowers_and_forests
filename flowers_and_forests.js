@@ -18,7 +18,7 @@ elements.nutmeg_ground = {
 };
 elements.cactus = {
 	color: "#35ff08",
-	behavior: behaviors.POWDER,
+	behavior: behaviors.SOLID,
 	category: "land",
 	state: "solid",
 	reactions: {
@@ -29,7 +29,7 @@ elements.cactus = {
 };
 elements.blue_cactus = {
 	color: "#0033FF",
-	behavior: behaviors.POWDER,
+	behavior: behaviors.SOLID,
 	category: "land",
 	state: "solid",
 	reactions: {
