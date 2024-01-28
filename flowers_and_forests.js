@@ -27,3 +27,14 @@ elements.cactus = {
 	"bee": { elem1: "honey", elem2: "honey" },
     },
 };
+elements.blue_cactus = {
+	color: "#0033FF",
+	behavior: behaviors.POWDER,
+	category: "land",
+	state: "solid",
+	reactions: {
+        "human": { elem1: "blood", elem2: "blood" },
+	"fly": { elem1: "blood", elem2: "blood" },
+	"bee": { elem1: "honey", elem2: "honey" },
+    },
+};
