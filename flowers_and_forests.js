@@ -8,9 +8,6 @@ elements.nutmeg = {
 	category: "land",
 	state: "solid",
     breakInto: "nutmeg_ground",
-	reactions: {
-        "water": { elem1: "nutmeg_drink", elem2: "nutmeg_drink" },
-    },
 };
 elements.nutmeg_drink = {
 	color: "#b86d42",
@@ -24,6 +21,9 @@ elements.nutmeg_ground = {
 	behavior: behaviors.POWDER,
 	category: "land",
 	state: "solid",
+    reactions: {
+        "water": { elem1: "nutmeg_drink", elem2: "nutmeg_drink" },
+    },
 };
 elements.cactus = {
 	color: "#35ff08",
