@@ -8,6 +8,15 @@ elements.nutmeg = {
 	category: "land",
 	state: "solid",
         breakInto: “nutmeg_ground”,
+	reactions: {
+        "water": { elem1: "nutmeg_drink", elem2: "nutmeg_drink" },
+    },
+};
+elements.nutmeg_drink = {
+	color: "#b86d42",
+	behavior: behaviors.LIQUID,
+	category: "land",
+	state: "solid",
 };
 
 elements.nutmeg_ground = {
