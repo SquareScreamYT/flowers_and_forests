@@ -7,7 +7,7 @@ elements.nutmeg = {
 	behavior: behaviors.POWDER,
 	category: "land",
 	state: "solid",
-        breakInto: “nutmeg_ground”,
+    breakInto: "nutmeg_ground",
 	reactions: {
         "water": { elem1: "nutmeg_drink", elem2: "nutmeg_drink" },
     },
