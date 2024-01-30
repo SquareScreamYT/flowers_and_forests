@@ -62,7 +62,7 @@ elements.sycamore_wood = {
     breakIntoColor: ["#dba66e","#cc8a64"],
     hidden: true
 }
-elements.apple_branch = {
+elements.sycamore_branch = {
     color: "#632e1f",
     behavior: [
         "CR:sycamore_leaves,sycamore_branch%2|CR:sycamore_leaves,sycamore_branch%2|CR:sycamore_leaves,sycamore_branch%2",
@@ -70,9 +70,9 @@ elements.apple_branch = {
         "XX|XX|XX",
     ],
     tempHigh: 100,
-    stateHigh: "applewood",
+    stateHigh: "sycamore_wood",
     tempLow: -30,
-    stateLow: "applewood",
+    stateLow: "sycamore_wood",
     category: "life",
     burn: 40,
     burnTime: 50,
