@@ -165,13 +165,11 @@ worldgentypes.fields = {
     ],
     decor: [
         ["sapling", 0.04, 20],
-        ["pinecone", 0.04, 20],
         ["grass", 0.25, 30],
+	["grass", 0.25, 30],
         ["bee", 0.02, 25],
         ["rain_cloud", 1, 2],
         ["rain_cloud", 1, 6],
-        ["rain_cloud", 1, 10],
-	["rain_cloud", 1, 14],
     ],
     baseHeight: 0.25
 }
