@@ -168,8 +168,7 @@ worldgentypes.fields = {
         ["grass", 0.25, 30],
 	["grass", 0.25, 30],
         ["bee", 0.02, 25],
-        ["rain_cloud", 1, 2],
-        ["rain_cloud", 1, 6],
+        ["cloud", 1, 2],
     ],
     baseHeight: 0.25
 }
