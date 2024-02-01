@@ -172,3 +172,18 @@ worldgentypes.fields = {
     ],
     baseHeight: 0.25
 }
+
+worldgentypes.sycamore_forest = {
+    layers: [
+        [0.75, "dirt"],
+        [0.05, "dirt"],
+    ],
+    decor: [
+        ["sycamore_seed", 0.04, 20],
+        ["sycamore_seed", 0.10, 20],
+        ["sycamore_seed", 0.13, 20],
+	    ["grass", 0.25, 30],
+        ["cloud", 1, 2],
+    ],
+    baseHeight: 0.25
+}
