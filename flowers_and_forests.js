@@ -156,3 +156,22 @@ elements.sycamore_seed = {
         "XX|M1|XX",
     ],
 };
+
+worldgentypes.fields = {
+    layers: [
+        [0.75, "dirt"],
+        [0.05, "rock"],
+        [0, "basalt"],
+    ],
+    decor: [
+        ["sapling", 0.04, 20],
+        ["pinecone", 0.04, 20],
+        ["grass", 0.25, 30],
+        ["bee", 0.02, 25],
+        ["rain_cloud", 1, 2],
+        ["rain_cloud", 1, 6],
+        ["rain_cloud", 1, 10],
+	["rain_cloud", 1, 14],
+    ],
+    baseHeight: 0.25
+}
