@@ -9,9 +9,19 @@ elements.nutmeg = {
 	state: "solid",
     breakInto: "nutmeg_ground",
 };
+
 elements.nutmeg_drink = {
 	color: "#b86d42",
 	behavior: behaviors.LIQUID,
+	category: "land",
+	state: "solid",
+    reactions: {
+        "baked_batter": { elem1: "nutmeg_cake", elem2: "nutmeg_cake" },
+    },
+};
+elements.nutmeg_cake = {
+	color: "#b86d42",
+	behavior: behaviors.SOLID,
 	category: "land",
 	state: "solid",
 };
