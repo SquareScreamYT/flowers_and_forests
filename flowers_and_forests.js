@@ -197,6 +197,7 @@ worldgentypes.sycamore_forest = {
     ],
     baseHeight: 0.25
 };
+
 elements.onion = {
 	color: "#f5b042",
 	behavior: behaviors.POWDER,
