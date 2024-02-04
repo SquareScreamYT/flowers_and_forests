@@ -176,7 +176,7 @@ worldgentypes.fields = {
     decor: [
         ["sapling", 0.04, 20],
         ["grass", 0.25, 30],
-	["grass", 0.25, 30],
+	    ["grass", 0.25, 30],
         ["bee", 0.02, 25],
         ["cloud", 1, 2],
     ],
