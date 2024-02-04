@@ -92,7 +92,7 @@ elements.sycamore_branch = {
     density: 1500,
     hardness: 0.15,
     breakInto: ["sap","sawdust"],
-}
+};
 elements.sycamore_leaves = {
     color: ["#00d404","#0ec911","#109e12"],
     behavior: [
@@ -196,4 +196,10 @@ worldgentypes.sycamore_forest = {
         ["cloud", 1, 2],
     ],
     baseHeight: 0.25
-}
+};
+elements.onion = {
+	color: "#f5b042",
+	behavior: behaviors.POWDER,
+	category: "land",
+	state: "solid",
+};
